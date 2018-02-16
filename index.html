@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>CCSK</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="front scroll">
+        <div class="c1">
+            <video class="Dvideo" autoplay loop>
+                    <source src="video/akavetdotdk.mp4" type="video/mp4">
+                </video>
+        </div>
+        <div class="c2">
+        </div>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="js/libs/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
+<script type="text/javascript">
+    (function($) {
+        $.jInvertScroll(['.scroll'], // an array containing the selector(s) for the elements you want to animate
+            {
+                height: 6000, // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+                onScroll: function(percent) { //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                    console.log(percent);
+                }
+            });
+    }(jQuery));
+
+</script>
+
+</html>
