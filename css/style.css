@@ -44,18 +44,81 @@ body
     height: 775px;
 }
 
+
 .c2{
-    background-color: hotpink;
+    display: flex;
+    flex-wrap: nowrap;
     width: 1550px;
     height: 775px;
 }
-.webpage{
-    width: 1732px;
-    height: 12038px;
-    background-color: black;
+
+.c3 {
+     width: 1550px;
+    height: 775px;
 }
+
+/** DANSEVIDEO PÅ FORSIDEN **/
+
 .Dvideo{
     width: 100%;
     border: none;
 }
+
+
+/** infoboks skal sidde i midten **/
+.infobox{
+    width: 30%;
+    height: 450px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+}
+.prove{
+    overflow: hidden;
     
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+/** KONTAKT SIDE **/
+.colorcloud {
+    width: 85%;
+    margin-top: 5%;
+}
+
+.kontakt {
+    line-height: 2;
+    margin-left: 10%;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.ejer {
+    line-height: 1.5;
+    font-size: em;
+
+    text-align: center;
+    }
+
+.tables{
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+table{
+    margin: 0% 5%;
+}
+
+.mailicon {
+    width: 9%;
+    
+}
+.instaicon{
+    margin-left: 2%;
+}
+
+.iconer {
+    padding-top: 2%;
+}
