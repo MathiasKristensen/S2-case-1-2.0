@@ -52,6 +52,12 @@ body
     height: 775px;
 }
 
+#yarn
+{
+    position: fixed;
+    width: 200px;
+}
+
 .c3 {
      width: 1550px;
     height: 775px;
@@ -59,7 +65,7 @@ body
 
 /** DANSEVIDEO PÅ FORSIDEN **/
 
-.dvideo{
+#dvideo{
     width: 100%;
     border: none;
 }
