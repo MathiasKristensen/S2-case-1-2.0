@@ -3,18 +3,6 @@ window.onscroll = function() {myFunction()};
 function myFunction() 
 {
     
-    for(i=0; i<2000;i++ )
-        {
-              document.getElementById("yarn").style.transform = "rotate(5deg)";         
-        }
-    
-    if (document.body.scrollLeft +1) 
-    {
-        console.log(scrollY);
-        
-        //document.getElementById("yarn").style.transform = "rotate(1deg)";
-    }
-    
     var vid = document.getElementById("dvideo");
     
     if (scrollY > 426)
@@ -25,6 +13,13 @@ function myFunction()
         {
             vid.muted = false;
         }
+}
+
+// 
+function scrollToElement2()
+{
+    console.log("Scroller til c2");
+    window.scrollTo(0,440); 
 }
 
 
@@ -70,13 +65,16 @@ function myFunction()
 						dot.className += ' current-from-right';
 					}
 
-					setTimeout( function() {
+					setTimeout( function() 
+                               {
 						dot.className += ' current';
 						current = idx;
-						if( typeof self.options.callback === 'function' ) {
+						if( typeof self.options.callback === 'function' ) 
+                        {
 							self.options.callback( current );
 						}
-					}, 25 );						
+					}
+            , 25 );						
 				}
 			} );
 		} );
