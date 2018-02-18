@@ -37,6 +37,7 @@ html
 {
     z-index: -4;
     display: flex;
+    z-index: -4;
     flex-wrap: nowrap;
     width: 20000px;
 }
@@ -135,7 +136,6 @@ table{
 
 .dotstyle ul {
 	position: fixed;
-    z-index: 600;
 	display: inline-block;
     bottom: 0;
     margin-left: 42%;

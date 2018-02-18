@@ -26,7 +26,6 @@ function scrollToElement2()
 // -------------JAVASCRIPT TIL DOTS --------------- // 
  
 
-;( function( window ) {
 
 	'use strict';
 
