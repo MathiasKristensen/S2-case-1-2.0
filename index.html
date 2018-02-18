@@ -9,15 +9,16 @@
 
 <body>
     <div class="front scroll">
-        <div class="c1">
+        
+        <div id="c1">
             <video id="dvideo" autoplay loop>
                     <source src="video/akavetdotdk.mp4" type="video/mp4">
                 </video>
         </div>
-        <div class="c2">
+        <div id="c2">
             <!-- classen infobox = position/størrelse og classen "flex" position af tekst og billede -->
-            
-            
+
+
             <div class="infobox proves">
                 <p><br>Tommy and Brian are the owners of Colorcloudknit. In addition to being the owner of Colorcloudknit, they also have an education within their respective fields architect and lawyer.<br><br> In 1994 Tommy bought a cashmere sweater in Berlin. The quality of the trousers was very high due to the yarn it had been knitted. The shirt has now lasted for 24 years, and it's close to being as good as new, it only needs some miner repairing, but it's still a well-functioning tight shirt.<br> This was the kick-start for Tommy to get the idea to produce cashmere sweaters. He met Brian a few years later, and quickly decided that they should do something together.<br><br> After more than two years of research to try to comprehend and understanding of the properties and potentials of cashmere fibers, capabilities of alternate design details, different knitting and twisting techniques, and endless prototype reiterations, their Colorcloudstudio unisex, luxury sweaters are now available for sale!
                 </p>
@@ -28,12 +29,11 @@
             </div>
 
         </div>
-        
-        
-<!-- _________________________________________________________________________________
-KONTAKT SIDEN -->        
-        <div class="c3">
-                <div class="tables">
+
+        <!-- _________________________________________________________________________________
+KONTAKT SIDEN -->
+        <div id="c3">
+            <div class="tables">
                 <table class="kontakt">
                     <tr>
                         <td>
@@ -51,32 +51,34 @@ KONTAKT SIDEN -->
                 <table class="iconer">
                     <tr>
                         <td>
-                        <img class="mailicon" src="image/mail.png" alt="mail icon">  
-                        <img class="mailicon instaicon" src="image/insta.png" alt="mail icon">  
-                        <img class="mailicon instaicon" src="image/homepage.png" alt="mail icon">  
-                            
-                            
-                            
+                            <img class="mailicon" src="image/mail.png" alt="mail icon">
+                            <img class="mailicon instaicon" src="image/insta.png" alt="mail icon">
+                            <img class="mailicon instaicon" src="image/homepage.png" alt="mail icon">
                         </td>
                     </tr>
 
                 </table>
-                </div>
-
-                <img class="colorcloud" src="image/color.png" alt="Color Cloud knit's studio ">
-
             </div>
-        
-        
-        
-        
-    </div>
 
-<img id="yarn" src="image/yarn.png" alt="yarn">
-    
-    
-    
-    
+            <img class="colorcloud" src="image/color.png" alt="Color Cloud knit's studio ">
+
+        </div>
+
+    </div>
+        <!-- SLIDE DOTS-->
+        <div class="dotstyle dotstyle-hop">
+            <ul>
+                <li class="current dot1"><a href="#c1">Home</a></li>
+                <li class="dot2"><a href="#c2">About</a></li>
+                <li class="dot3"><a href="#c3">Products</a></li>
+                <li class="dot4"><a href="#">Portfolio</a></li>
+                <li class="dot5"><a href="#">Blog</a></li>
+                <li class="dot6"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- SLIDE DOTS SLUT-->
+        
+
 </body>
 <script type="text/javascript" src="js/libs/javascript.js"></script>
 <script type="text/javascript" src="js/libs/jquery.min.js"></script>
@@ -91,6 +93,16 @@ KONTAKT SIDEN -->
                 }
             });
     }(jQuery));
+
+</script>
+    <script>
+    [].slice.call(document.querySelectorAll('.dotstyle > ul')).forEach(function(nav) {
+        new DotNav(nav, {
+            callback: function(idx) {
+                //console.log( idx )
+            }
+        });
+    });
 
 </script>
 
