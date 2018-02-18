@@ -29,10 +29,13 @@
             </div>
 
         </div>
+        <div id="c3"></div>
+        <div id="c4"></div>
+        <div id="c5"></div>
 
         <!-- _________________________________________________________________________________
 KONTAKT SIDEN -->
-        <div id="c3">
+        <div id="c6">
             <div class="tables">
                 <table class="kontakt">
                     <tr>
@@ -68,12 +71,12 @@ KONTAKT SIDEN -->
         <!-- SLIDE DOTS-->
         <div class="dotstyle dotstyle-hop">
             <ul>
-                <li class="current dot1"><a href="#c1">Home</a></li>
+                <li class="current dot1"><a href="#c1" onclick="scrollToElement1()">Home</a></li>
                 <li class="dot2"><a href="#c2" onclick="scrollToElement2()" class="about">About</a></li>
-                <li class="dot3"><a href="#c3">Products</a></li>
-                <li class="dot4"><a href="#">Portfolio</a></li>
-                <li class="dot5"><a href="#">Blog</a></li>
-                <li class="dot6"><a href="#">Contact</a></li>
+                <li class="dot3"><a href="#c3" onclick="scrollToElement3()">Products</a></li>
+                <li class="dot4"><a href="#c4" onclick="scrollToElement4()">Portfolio</a></li>
+                <li class="dot5"><a href="#c5" onclick="scrollToElement5()">Blog</a></li>
+                <li class="dot6"><a href="#" onclick="scrollToElement6()">Contact</a></li>
             </ul>
         </div>
             
@@ -94,6 +97,16 @@ KONTAKT SIDEN -->
                 }
             });
     }(jQuery));
+
+</script>
+    <script>
+    [].slice.call(document.querySelectorAll('.dotstyle > ul')).forEach(function(nav) {
+        new DotNav(nav, {
+            callback: function(idx) {
+                //console.log( idx )
+            }
+        });
+    });
 
 </script>
 

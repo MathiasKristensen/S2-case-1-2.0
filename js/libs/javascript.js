@@ -16,16 +16,42 @@ function myFunction()
 }
 
 // 
+function scrollToElement1()
+{
+    console.log("Scroller til c1");
+    window.scrollTo(0,0); 
+}
 function scrollToElement2()
 {
     console.log("Scroller til c2");
     window.scrollTo(0,440); 
 }
+function scrollToElement3()
+{
+    console.log("Scroller til c3");
+    window.scrollTo(0,880); 
+}
+function scrollToElement4()
+{
+    console.log("Scroller til c4");
+    window.scrollTo(0,1320); 
+}
+function scrollToElement5()
+{
+    console.log("Scroller til c5");
+    window.scrollTo(0,1760); 
+}function scrollToElement6()
+{
+    console.log("Scroller til c6");
+    window.scrollTo(0,2200); 
+}
 
 
 // -------------JAVASCRIPT TIL DOTS --------------- // 
  
-
+ 
+ 
+;( function( window ) {
 
 	'use strict';
 

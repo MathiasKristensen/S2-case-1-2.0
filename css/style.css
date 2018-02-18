@@ -55,6 +55,21 @@ html
 }
 #c3 {
     width: 1550px;
+    background-color: deeppink;
+    height: 775px;
+}
+#c4 {
+    width: 1550px;
+    background-color: aqua;
+    height: 775px;
+}
+#c5 {
+    width: 1550px;
+    background-color: teal;
+    height: 775px;
+}
+#c6 {
+    width: 1550px;
     height: 775px;
 }
 
@@ -93,7 +108,7 @@ html
 /** KONTAKT SIDE **/
 .colorcloud {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .kontakt {
@@ -111,7 +126,8 @@ html
     }
 
 .tables{
-    padding-top: 5%;
+    padding-top: 8%;
+    padding-left: 15%;
     display: flex;
     flex-wrap: nowrap;
 }
