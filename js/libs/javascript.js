@@ -67,8 +67,9 @@ function scrollToElement4()
 function scrollToElement5()
 {
     console.log("Scroller til c5");
-    window.scrollTo(0,1760); 
-}function scrollToElement6()
+    window.scrollTo(0,1760);    
+}
+function scrollToElement6()
 {
     console.log("Scroller til c6");
     window.scrollTo(0,2200); 

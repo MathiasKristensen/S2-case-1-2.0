@@ -1,18 +1,17 @@
 html,
-body
-{
-  padding: 0;
-  margin: 0;
-  font-family: Arial, sans-serif;
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
-body
-{
-  overflow-x: hidden;
+
+body {
+    overflow-x: hidden;
 }
-html
-{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -20,11 +19,11 @@ html
   * important: keep position fixed, you can however use top:0 instead of bottom:0
   * if you want to make it stick to the top of the browser
   */
-.scroll
-{
-  position: fixed;
-  bottom: 0;
-  left: 0;
+
+.scroll {
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 /**
@@ -32,9 +31,7 @@ html
   * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
   */
 
-
-.front
-{
+.front {
     z-index: -4;
     display: flex;
     z-index: -4;
@@ -42,41 +39,48 @@ html
     width: 20000px;
 }
 
-/** HVER ENKEL UNDERSIDE I VORES WEBDOK______________________________________ **/ 
-/** FORSIDEN **/ 
-#c1
-{
+/** HVER ENKEL UNDERSIDE I VORES WEBDOK______________________________________ **/
+
+/** FORSIDEN **/
+
+#c1 {
     width: 1550px;
     height: 775px;
 }
 
-#videoH1
-{
+#videoH1 {
     position: absolute;
     font-size: 80px;
     background-color: transparent;
     color: white;
-    
+
     margin-top: 350px;
     margin-left: 220px;
     text-align: center;
-    
+
     z-index: 1;
 }
 
-#yarn
-{
+#yarn {
     bottom: 0;
     width: 100px;
     margin-left: 1440px;
     position: fixed;
 }
+
 /** 1. TEKST **/
+
 #c2 {
     width: 1550px;
     overflow: hidden;
     position: relative;
     height: 775px;
+}
+
+.colorcloud {
+    width: 100%;
+    margin-top: 8%;
+    opacity: 0.5;
 }
 
 .centered {
@@ -86,55 +90,85 @@ html
     color: black;
     text-align: center;
 }
+
 .ccsk {
     font-size: 3em;
-    top: 50%;
+    top: 53%;
     left: 50%;
 }
 
 .overskrift {
     font-size: 2.5em;
-    top: 30%;
+    top: 33%;
     left: 50%;
 }
+
 /** INTERVIEW VIDEO **/
-#c3{
+
+#c3 {
     display: flex;
     flex-wrap: nowrap;
     width: 1550px;
     height: 775px;
 }
 
-/** 2. TEKST **/    
+.infobox {
+    width: 30%;
+    height: 450px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+}
+
+.prove {
+    margin-top: 8%;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+/** 2. TEKST **/
+
 #c4 {
     width: 1550px;
     position: relative;
     height: 775px;
 }
-.billedkasse{
+
+.billedkasse {
     position: relative;
     z-index: -1;
-    margin-top: 2%;
-    left: 10%;
-    width: 50%;
-    height: 80%;
+    margin-top: 4%;
+    left: 15%;
+    width: 45%;
+    height: 75%;
     overflow: hidden;
+    -webkit-box-shadow: 0px 0px 28px 9px rgba(10,10,10,1);
+-moz-box-shadow: 0px 0px 28px 9px rgba(10,10,10,1);
+box-shadow: 0px 0px 28px 9px rgba(10,10,10,1);
 }
-.c4billed{
+
+.c4billed {
     margin-top: -18%;
     width: 100%;
 }
-.tekstkasse{
+
+.tekstkasse {
     position: absolute;
     padding: 9px;
     background-color: dimgrey;
-    margin-top: -8.0845%;
-    left: 70%;
+    margin-top: -4.0845%;
+    left: 71%;
     width: 30%;
-    height: 30%; 
+    height: 30%;
     transform: translate(-50%, -50%);
+    -webkit-box-shadow: -8px 7px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px 7px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -8px 7px 14px 0px rgba(0, 0, 0, 0.75);
 }
-.billedtekst{
+
+.billedtekst {
     margin-top: 1%;
     font-family: sans-serif;
     font-size: 42px;
@@ -142,14 +176,12 @@ html
 
 /** BILLEDER **/
 
-#c5 
-{
+#c5 {
     width: 1550px;
     height: 775px;
 }
 
-#c5p
-{
+#c5p {
     padding-left: 100px;
     padding-right: 700px;
     margin-top: 100px;
@@ -158,8 +190,7 @@ html
     font-family: sans-serif;
 }
 
-#sweaterA
-{
+#sweaterA {
     position: absolute;
     margin-top: -270px;
     margin-right: 50px;
@@ -167,13 +198,14 @@ html
     transform: rotate(15deg);
 }
 
-#garnKey
-{
+#garnKey {
     position: absolute;
     margin-left: 300px;
     margin-top: 100px
 }
+
 /** KONTAKT SIDEN**/
+
 #c6 {
     width: 1550px;
     height: 775px;
@@ -187,162 +219,104 @@ html
 
 /** DANSEVIDEO PÅ FORSIDEN_________________________________________ **/
 
-#dvideo{
+#dvideo {
     width: 100%;
     border: none;
     filter: blur(6px)
 }
 
-
-/** INFOBOKS SKAL SIDDE I MIDTEN___________________________________ **/
-.infobox{
-    width: 30%;
-    height: 450px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-    line-height: 1.5;
-}
-.prove{
-    overflow: hidden;
-    box-shadow: 5px 5px 5px #888888;
-}
-
-
-/** KONTAKT SIDE ___________________________________________________ **/
-.colorcloud {
-    width: 100%;
-    margin-top: 7%;
-    opacity: 0.5;
-}
-
-.kontakt {
-    line-height: 2;
-    margin-left: 10%;
-    font-size: 1.2em;
-    text-align: center;
-}
-
-.ejer {
-    line-height: 1.5;
-    font-size: em;
-
-    text-align: center;
-    }
-
-.tables{
-    padding-top: 8%;
-    padding-left: 15%;
-    display: flex;
-    flex-wrap: nowrap;
-}
-table{
-    margin: 0% 5%;
-}
-
-.mailicon {
-    width: 9%;
-    
-}
-.instaicon{
-    margin-left: 2%;
-}
-
-.iconer {
-    padding-top: 2%;
-}
-
-
 /** STYLING AF DOTS_____________________________________________________________ **/
 
 .dotstyle ul {
-	position: fixed;
-	display: inline-block;
+    position: fixed;
+    display: inline-block;
     bottom: 0;
     margin-left: 42%;
-	padding: 0;
-	list-style: none;
-	cursor: default;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+    padding: 0;
+    list-style: none;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .dotstyle li {
-	position: relative;
-	display: block;
-	float: left;
-	margin: 0 16px;
-	width: 16px;
-	height: 16px;
-	cursor: pointer;
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 16px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
 }
 
 .dotstyle li a {
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	outline: none;
-	border-radius: 50%;
-	background-color: #fff;
-	background-color: rgba(255, 255, 255, 0.3);
-	text-indent: -999em; /* gør teksten så lille at man ikke kan se den */
-	cursor: pointer;
-	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: 50%;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-indent: -999em;
+    /* gør teksten så lille at man ikke kan se den */
+    cursor: pointer;
+    position: absolute;
 }
 
 .dotstyle li a:focus {
-	outline: none;
+    outline: none;
 }
 
 /** CSS HOPPE FUNKTION FOR DOTS___________________________________________________________ **/
+
 .dotstyle-hop li a {
-	border: 2px solid black;
-	background: transparent;
+    border: 2px solid black;
+    background: transparent;
 }
 
 /** HOPPE FRA OG TILBAGE FUNKTION FOR DOTS________________________________________________ **/
+
 .dotstyle-hop li a::after {
-	content: '';
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	border-radius: 50%;
-	visibility: hidden;
-	background: black;
-	opacity: 0;
-	-webkit-transform: rotate(-100deg);
-	transform: rotate(-100deg);
-	-webkit-transform-origin: -200% 50%;
-	transform-origin: -200% 50%;
-	-webkit-transition: -webkit-transform 0.3s ease 0.3s, opacity 0.3s ease, visibility 0s 0.3s ease;
-	transition: transform 0.3s ease 0.3s, opacity 0.3s ease, visibility 0s 0.3s ease;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    visibility: hidden;
+    background: black;
+    opacity: 0;
+    -webkit-transform: rotate(-100deg);
+    transform: rotate(-100deg);
+    -webkit-transform-origin: -200% 50%;
+    transform-origin: -200% 50%;
+    -webkit-transition: -webkit-transform 0.3s ease 0.3s, opacity 0.3s ease, visibility 0s 0.3s ease;
+    transition: transform 0.3s ease 0.3s, opacity 0.3s ease, visibility 0s 0.3s ease;
 }
 
 .dotstyle-hop li a:focus {
-	background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .dotstyle-hop li.current-from-right a::after {
-	-webkit-transition: none;
-	transition: none;
-	-webkit-transform: rotate(100deg);
-	transform: rotate(100deg);
-	-webkit-transform-origin: 300% 50%;
-	transform-origin: 300% 50%;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: rotate(100deg);
+    transform: rotate(100deg);
+    -webkit-transform-origin: 300% 50%;
+    transform-origin: 300% 50%;
 }
 
 .dotstyle-hop li.current a::after {
-	visibility: visible;
-	opacity: 1;
-	-webkit-transform: rotate(0deg);
-	transform: rotate(0deg);
-	-webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
-	transition: transform 0.3s ease, opacity 0.3s ease;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
