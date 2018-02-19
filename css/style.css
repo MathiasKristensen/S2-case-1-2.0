@@ -67,58 +67,129 @@ html
 #yarn
 {
     bottom: 0;
-    margin-left: 1400px;
+    width: 100px;
+    margin-left: 1440px;
     position: fixed;
 }
 /** 1. TEKST **/
-#c2{
+#c2 {
+    width: 1550px;
+    overflow: hidden;
+    position: relative;
+    height: 775px;
+}
+
+.centered {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+.ccsk {
+    font-size: 3em;
+    top: 50%;
+    left: 50%;
+}
+
+.overskrift {
+    font-size: 2.5em;
+    top: 30%;
+    left: 50%;
+}
+/** INTERVIEW VIDEO **/
+#c3{
     display: flex;
     flex-wrap: nowrap;
     width: 1550px;
     height: 775px;
 }
 
-/** INTERVIEW VIDEO **/
-#c3 {
-    width: 1550px;
-    background-color: deeppink;
-    height: 775px;
-}
-
-/** 2. TEKST **/
+/** 2. TEKST **/    
 #c4 {
     width: 1550px;
-    background-color: aqua;
+    position: relative;
     height: 775px;
+}
+.billedkasse{
+    position: relative;
+    z-index: -1;
+    margin-top: 2%;
+    left: 10%;
+    width: 50%;
+    height: 80%;
+    overflow: hidden;
+}
+.c4billed{
+    margin-top: -18%;
+    width: 100%;
+}
+.tekstkasse{
+    position: absolute;
+    padding: 9px;
+    background-color: dimgrey;
+    margin-top: -8.0845%;
+    left: 70%;
+    width: 30%;
+    height: 30%; 
+    transform: translate(-50%, -50%);
+}
+.billedtekst{
+    margin-top: 1%;
+    font-family: sans-serif;
+    font-size: 42px;
 }
 
 /** BILLEDER **/
-#c5 {
+
+#c5 
+{
     width: 1550px;
-    background-color: teal;
     height: 775px;
 }
 
+#c5p
+{
+    padding-left: 100px;
+    padding-right: 700px;
+    margin-top: 100px;
+    color: black;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+#sweaterA
+{
+    position: absolute;
+    margin-top: -270px;
+    margin-right: 50px;
+    margin-left: 800px;
+    transform: rotate(15deg);
+}
+
+#garnKey
+{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 100px
+}
 /** KONTAKT SIDEN**/
 #c6 {
     width: 1550px;
     height: 775px;
 }
 
-#yarn
-{
-    position: fixed;
-    width: 200px;
+#c7 {
+    width: 1550px;
+    background-color: deeppink;
+    height: 775px;
 }
-
-
 
 /** DANSEVIDEO PÅ FORSIDEN_________________________________________ **/
 
 #dvideo{
     width: 100%;
     border: none;
-    
     filter: blur(6px)
 }
 
@@ -143,6 +214,7 @@ html
 .colorcloud {
     width: 100%;
     margin-top: 7%;
+    opacity: 0.5;
 }
 
 .kontakt {
