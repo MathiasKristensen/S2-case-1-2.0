@@ -41,33 +41,44 @@ html
     flex-wrap: nowrap;
     width: 20000px;
 }
+
+/** HVER ENKEL UNDERSIDE I VORES WEBDOK______________________________________ **/ 
+/** FORSIDEN **/ 
 #c1{
     width: 1550px;
     height: 775px;
 }
 
-
+/** 1. TEKST **/
 #c2{
     display: flex;
     flex-wrap: nowrap;
     width: 1550px;
     height: 775px;
 }
+
+/** INTERVIEW VIDEO **/
 #c3 {
     width: 1550px;
     background-color: deeppink;
     height: 775px;
 }
+
+/** 2. TEKST **/
 #c4 {
     width: 1550px;
     background-color: aqua;
     height: 775px;
 }
+
+/** BILLEDER **/
 #c5 {
     width: 1550px;
     background-color: teal;
     height: 775px;
 }
+
+/** KONTAKT SIDEN**/
 #c6 {
     width: 1550px;
     height: 775px;
@@ -81,7 +92,7 @@ html
 
 
 
-/** DANSEVIDEO PÅ FORSIDEN **/
+/** DANSEVIDEO PÅ FORSIDEN_________________________________________ **/
 
 #dvideo{
     width: 100%;
@@ -89,7 +100,7 @@ html
 }
 
 
-/** infoboks skal sidde i midten **/
+/** INFOBOKS SKAL SIDDE I MIDTEN___________________________________ **/
 .infobox{
     width: 30%;
     height: 450px;
@@ -105,7 +116,7 @@ html
 }
 
 
-/** KONTAKT SIDE **/
+/** KONTAKT SIDE ___________________________________________________ **/
 .colorcloud {
     width: 100%;
     margin-top: 7%;
@@ -147,8 +158,8 @@ table{
     padding-top: 2%;
 }
 
-/** Styling af dots **/
 
+/** STYLING AF DOTS_____________________________________________________________ **/
 
 .dotstyle ul {
 	position: fixed;
@@ -185,7 +196,7 @@ table{
 	border-radius: 50%;
 	background-color: #fff;
 	background-color: rgba(255, 255, 255, 0.3);
-	text-indent: -999em; /* make the text accessible to screen readers */
+	text-indent: -999em; /* gør teksten så lille at man ikke kan se den */
 	cursor: pointer;
 	position: absolute;
 }
@@ -194,12 +205,13 @@ table{
 	outline: none;
 }
 
-/** CSS hop funktion **/
+/** CSS HOPPE FUNKTION FOR DOTS___________________________________________________________ **/
 .dotstyle-hop li a {
 	border: 2px solid black;
 	background: transparent;
 }
-/** Hop frem og tilbage **/
+
+/** HOPPE FRA OG TILBAGE FUNKTION FOR DOTS________________________________________________ **/
 .dotstyle-hop li a::after {
 	content: '';
 	width: 100%;
