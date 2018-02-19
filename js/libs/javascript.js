@@ -1,3 +1,6 @@
+var lastScrollPosition = 0;
+var grad = 1;
+
 window.onscroll = function() {myFunction()};
 
 function myFunction() 
@@ -5,16 +8,41 @@ function myFunction()
     
     var vid = document.getElementById("dvideo");
     
-    if (scrollY > 426)
+    var newScrollPosition = window.scrollY;
+    
+    if (scrollY > 50 && newScrollPosition
+        < lastScrollPosition)
+        {
+             
+            document.getElementById("yarn").style.transform = "rotate(" + grad + "deg)";
+            console.log("Garn ruller frem");
+            grad-=2;
+            
+        }
+    
+    
+    
+    else if(scrollY > 50)
+        {
+            vid.muted = true;
+             document.getElementById("yarn").style.transform = "rotate(" + grad + "deg)";
+            console.log("Garn ruller frem");
+            grad+=2;
+        }
+    lastScrollPosition = newScrollPosition;
+    
+    if(scrollY > 250)
         {
             vid.muted = true;
         }
-    else
+    
+    if(scrollY < 250)
         {
             vid.muted = false;
         }
+    
+    
 }
-
 // 
 function scrollToElement1()
 {

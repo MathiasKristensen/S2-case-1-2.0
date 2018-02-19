@@ -44,11 +44,32 @@ html
 
 /** HVER ENKEL UNDERSIDE I VORES WEBDOK______________________________________ **/ 
 /** FORSIDEN **/ 
-#c1{
+#c1
+{
     width: 1550px;
     height: 775px;
 }
 
+#videoH1
+{
+    position: absolute;
+    font-size: 80px;
+    background-color: transparent;
+    color: white;
+    
+    margin-top: 350px;
+    margin-left: 220px;
+    text-align: center;
+    
+    z-index: 1;
+}
+
+#yarn
+{
+    bottom: 0;
+    margin-left: 1400px;
+    position: fixed;
+}
 /** 1. TEKST **/
 #c2{
     display: flex;
@@ -97,6 +118,8 @@ html
 #dvideo{
     width: 100%;
     border: none;
+    
+    filter: blur(6px)
 }
 
 
