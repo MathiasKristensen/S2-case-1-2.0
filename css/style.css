@@ -37,12 +37,12 @@ html {
     display: flex;
     z-index: -4;
     flex-wrap: nowrap;
-    width: 20000px;
+    width: 10850px;
 }
 
 /** HVER ENKEL UNDERSIDE I VORES WEBDOK______________________________________ **/
 
-/** FORSIDEN **/
+/** FORSIDEN _________________________________________________________________**/
 
 #c1 {
     width: 1550px;
@@ -70,7 +70,7 @@ html {
     z-index: 16;
 }
 
-/** 1. TEKST **/
+/** SIDE 2 - velkommen  _____________________________________________________________________ **/
 
 #c2 {
     width: 1550px;
@@ -105,7 +105,7 @@ html {
     left: 50%;
 }
 
-/** INTERVIEW VIDEO **/
+/** SIDE 3 - INTERVIEW VIDEO _______________________________________________________________ **/
 
 #c3 {
     display: flex;
@@ -125,12 +125,12 @@ html {
 }
 
 .prove {
-    margin-top: 8%;
+    margin-top: 7.6%;
     overflow: hidden;
     box-shadow: 5px 5px 5px #888888;
 }
 
-/** 2. TEKST **/
+/** SIDE 4 - Tekst og collage ___________________________________________________________________**/
 
 #c4 {
     width: 1550px;
@@ -219,20 +219,20 @@ box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
     width: 45%;
     height: 30%;
     margin-top: -14%;
-    margin-left: 15%;
+    margin-left: 17%;
 }
 
 .billedtekst {
     margin-top: 2%;
     font-family: sans-serif;
-    font-size: 42px;
+    font-size: 39px;
 }
 .billedtekst2 {
     font-family: sans-serif;
-    font-size: 42px;
+    font-size: 39px;
 }
 
-/** BILLEDER **/
+/** SIDE 5 Tekst og tegnet billeder _________________________________________________________________________**/
 
 #c5 {
     width: 1550px;
@@ -244,14 +244,25 @@ box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
     padding-right: 700px;
     margin-top: 100px;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: sans-serif;
     line-height: 1.5;
+    text-align: center;
 }
 
+.c5text {
+    padding-left: 100px;
+    padding-right: 700px;
+    margin-top: 50px;
+    color: black;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    line-height: 1.7;
+    text-align: center;
+}
 #sweaterA {
     position: absolute;
-    margin-top: -350px;
+    margin-top: -310px;
     margin-right: 50px;
     margin-left: 800px;
     transform: rotate(15deg);
@@ -262,15 +273,15 @@ box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
     margin-left: 300px; 
 }
 
-/** KONTAKT SIDEN**/
+/** SIDE 6 - INTERVIEW VIDEO _______________________________________________________**/
 
 #c6 {
     width: 1550px;
     height: 775px;
-    text-align: center;
 }
 #dvideo2 {
     margin-top: 2%;
+    margin-left: 15%;
     position: relative;
     z-index: 200;
     width: 75%;
@@ -281,6 +292,7 @@ box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
     
 }
 
+/** SIDE 7 - afslutnings tekst _______________________________________________________**/
 #c7 {
     width: 1550px;
     height: 775px;
@@ -304,7 +316,7 @@ box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
     position: relative;
     z-index: -1;
     margin-top: -3%;
-    left: 20%;
+    left: 17%;
     width: 40%;
     height: 30%;
     overflow: hidden;
@@ -317,12 +329,25 @@ box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
     width: 40%;
     height: 30%;
     margin-top: -25%;
-    margin-left: 55%;
+    margin-left: 50%;
 }
+.tekstkasse11 {
+    width: 60%;
+    height: 30%;
+    margin-top: -9%;
+    margin-left: 35%;
+}
+.billedtekst11 {
+     margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 47%;
+    line-height: 1.5;
+}
+
 
 .billedtekst1 {
     margin-top: 5%;
-    margin-left: -5%;
     font-family: sans-serif;
     font-size: 20px;
     line-height: 1.5;
@@ -330,14 +355,14 @@ box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
 .tekstkasse3 {
     width: 80%;
     height: 30%;
-    margin-top: 15%;
     margin-left: 15%;
+    text-align: center;
 }
 
 .billedtekst3 {
     margin-top: 2%;
     font-family: sans-serif;
-    font-size: 42px;
+    font-size: 30px;
 }
 
 #yarn {
@@ -353,9 +378,6 @@ box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
     bottom: 0;
     left: 0;
 }
-
-/** DANSEVIDEO PÅ FORSIDEN_________________________________________ **/
-
 
 /** STYLING AF DOTS_____________________________________________________________ **/
 
@@ -452,12 +474,4 @@ box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
     transform: rotate(0deg);
     -webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
     transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.billedtekst11 {
-     margin-top: 10%;
-    font-family: sans-serif;
-    font-size: 20px;
-    margin-left: 7%;
-    line-height: 1.5;
 }

@@ -52,32 +52,32 @@ function scrollToElement1()
 function scrollToElement2()
 {
     console.log("Scroller til c2");
-    window.scrollTo(0,440); 
+    window.scrollTo(0,875); 
 }
 function scrollToElement3()
 {
     console.log("Scroller til c3");
-    window.scrollTo(0,880); 
+    window.scrollTo(0,1755); 
 }
 function scrollToElement4()
 {
     console.log("Scroller til c4");
-    window.scrollTo(0,1320); 
+    window.scrollTo(0,2635); 
 }
 function scrollToElement5()
 {
     console.log("Scroller til c5");
-    window.scrollTo(0,1760);    
+    window.scrollTo(0,3515);    
 }
 function scrollToElement6()
 {
     console.log("Scroller til c6");
-    window.scrollTo(0,2200); 
+    window.scrollTo(0,4395); 
 }
 function scrollToElement7()
 {
     console.log("Scroller til c7");
-    window.scrollTo(0,2640); 
+    window.scrollTo(0,5285); 
 }
 
 
