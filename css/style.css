@@ -3,6 +3,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
+    z-index: -5;
+    position: relative;
 }
 
 /* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
@@ -33,7 +35,7 @@ html {
 
 .front {
     display: flex;
-    z-index: 4;
+    z-index: -4;
     flex-wrap: nowrap;
     width: 20000px;
 }
@@ -65,13 +67,6 @@ html {
     position:static;
     filter: blur(6px);
     z-index: 16;
-}
-#yarn {
-    bottom: 0;
-    width: 100px;
-    margin-left: 1440px;
-    position: fixed;
-    z-index: 5;
 }
 
 /** 1. TEKST **/
@@ -222,7 +217,7 @@ box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
 .tekstkasse2 {
     width: 45%;
     height: 30%;
-    margin-top: -13%;
+    margin-top: -14%;
     margin-left: 15%;
 }
 
@@ -254,7 +249,7 @@ box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
 
 #sweaterA {
     position: absolute;
-    margin-top: -270px;
+    margin-top: -350px;
     margin-right: 50px;
     margin-left: 800px;
     transform: rotate(15deg);
@@ -262,8 +257,7 @@ box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
 
 #garnKey {
     position: absolute;
-    margin-left: 300px;
-    margin-top: 100px
+    margin-left: 300px; 
 }
 
 /** KONTAKT SIDEN**/
@@ -289,6 +283,20 @@ box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
     width: 1550px;
     background-color: deeppink;
     height: 775px;
+}
+#yarn {
+    bottom: 0;
+    width: 100px;
+    margin-left: 1460px;
+    position: fixed;
+    z-index: -8;
+}
+#snor{
+    position: fixed;
+    z-index: -9;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 /** DANSEVIDEO PÅ FORSIDEN_________________________________________ **/
