@@ -138,46 +138,100 @@ html {
 
 #c4 {
     width: 1550px;
-    position: relative;
     height: 775px;
 }
 
-.billedkasse {
+.billedkasse1 {
+    position: relative;
+    z-index: -3;
+    margin-top: 1.5%;
+    left: 30%;
+    width: 35%;
+    height: 40%;
+    overflow: hidden;
+}.billedkasse2 {
+    position: relative;
+    z-index: 2;
+    margin-top: -7.5%;
+    left: 10%;
+    width: 30%;
+    height: 35%;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+}.billedkasse3 {
+    position: relative;
+    z-index: 3;
+    margin-top: -28%;
+    left: 60%;
+    width: 25%;
+    height: 40%;
+    overflow: hidden;
+ -webkit-box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+}.billedkasse4 {
+    position: relative;
+    z-index: 2;
+    margin-top: -5%;
+    left: 35%;
+    width: 30%;
+    height: 35%;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+}
+.billedkasse5 {
     position: relative;
     z-index: -1;
-    margin-top: 4%;
-    left: 15%;
-    width: 45%;
-    height: 75%;
+    margin-top: -15%;
+    left: 60%;
+    width: 35%;
+    height: 40%;
     overflow: hidden;
-    -webkit-box-shadow: 0px 0px 28px 9px rgba(10,10,10,0.6);
--moz-box-shadow: 0px 0px 28px 9px rgba(10,10,10,0.6);
-box-shadow: 0px 0px 28px 9px rgba(10,10,10,0.6);
 }
 
-.c4billed {
-    margin-top: -18%;
+.c4billed1 {
+    width: 100%;
+}
+.c4billed2 {
+
+    width: 100%;
+}
+.c4billed3 {
+    margin-top: -10%;
+    width: 100%;
+}
+.c4billed4 {
+    margin-top: -40%;
+    width: 100%;
+}
+.c4billed5 {
     width: 100%;
 }
 
+
 .tekstkasse {
-    position: absolute;
-    
-    background-color: rgba(209, 208, 204, 0.7);
-    padding: 9px;
-    margin-top: -4.0845%;
-    border-radius: 5px;
-    left: 71%;
-    width: 30%;
+    width: 40%;
     height: 30%;
-    transform: translate(-50%, -50%);
-    -webkit-box-shadow: -8px 7px 14px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -8px 7px 14px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: -8px 7px 14px 0px rgba(0, 0, 0, 0.75);
+    margin-top: -5%;
+    margin-left: 5%;
+}
+.tekstkasse2 {
+    width: 45%;
+    height: 30%;
+    margin-top: -13%;
+    margin-left: 15%;
 }
 
 .billedtekst {
-    margin-top: 1%;
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size: 42px;
+}
+.billedtekst2 {
     font-family: sans-serif;
     font-size: 42px;
 }
