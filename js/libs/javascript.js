@@ -10,7 +10,7 @@ function myFunction()
     
     var newScrollPosition = window.scrollY;
     
-    if (scrollY > 50 && newScrollPosition
+    if (scrollY > 30 && newScrollPosition
         < lastScrollPosition)
         {
              
@@ -22,7 +22,7 @@ function myFunction()
     
     
     
-    else if(scrollY > 50)
+    else if(scrollY > 30)
         {
             vid.muted = true;
              document.getElementById("yarn").style.transform = "rotate(" + grad + "deg)";
@@ -31,12 +31,12 @@ function myFunction()
         }
     lastScrollPosition = newScrollPosition;
     
-    if(scrollY > 250)
+    if(scrollY > 420)
         {
             vid.muted = true;
         }
     
-    if(scrollY < 250)
+    if(scrollY < 420)
         {
             vid.muted = false;
         }

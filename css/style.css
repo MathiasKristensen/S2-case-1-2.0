@@ -32,9 +32,8 @@ html {
   */
 
 .front {
-    z-index: -4;
     display: flex;
-    z-index: -4;
+    z-index: 4;
     flex-wrap: nowrap;
     width: 20000px;
 }
@@ -60,12 +59,19 @@ html {
 
     z-index: 1;
 }
-
+#dvideo {
+    width: 100%;
+    border: none;
+    position:static;
+    filter: blur(6px);
+    z-index: 16;
+}
 #yarn {
     bottom: 0;
     width: 100px;
     margin-left: 1440px;
     position: fixed;
+    z-index: 5;
 }
 
 /** 1. TEKST **/
@@ -144,9 +150,9 @@ html {
     width: 45%;
     height: 75%;
     overflow: hidden;
-    -webkit-box-shadow: 0px 0px 28px 9px rgba(10,10,10,1);
--moz-box-shadow: 0px 0px 28px 9px rgba(10,10,10,1);
-box-shadow: 0px 0px 28px 9px rgba(10,10,10,1);
+    -webkit-box-shadow: 0px 0px 28px 9px rgba(10,10,10,0.6);
+-moz-box-shadow: 0px 0px 28px 9px rgba(10,10,10,0.6);
+box-shadow: 0px 0px 28px 9px rgba(10,10,10,0.6);
 }
 
 .c4billed {
@@ -156,9 +162,11 @@ box-shadow: 0px 0px 28px 9px rgba(10,10,10,1);
 
 .tekstkasse {
     position: absolute;
+    
+    background-color: rgba(209, 208, 204, 0.7);
     padding: 9px;
-    background-color: dimgrey;
     margin-top: -4.0845%;
+    border-radius: 5px;
     left: 71%;
     width: 30%;
     height: 30%;
@@ -209,6 +217,18 @@ box-shadow: 0px 0px 28px 9px rgba(10,10,10,1);
 #c6 {
     width: 1550px;
     height: 775px;
+    text-align: center;
+}
+#dvideo2 {
+    margin-top: 2%;
+    position: relative;
+    z-index: 200;
+    width: 75%;
+    border: none;
+    -webkit-box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
+-moz-box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
+box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
+    
 }
 
 #c7 {
@@ -219,11 +239,6 @@ box-shadow: 0px 0px 28px 9px rgba(10,10,10,1);
 
 /** DANSEVIDEO PÅ FORSIDEN_________________________________________ **/
 
-#dvideo {
-    width: 100%;
-    border: none;
-    filter: blur(6px)
-}
 
 /** STYLING AF DOTS_____________________________________________________________ **/
 
@@ -231,6 +246,7 @@ box-shadow: 0px 0px 28px 9px rgba(10,10,10,1);
     position: fixed;
     display: inline-block;
     bottom: 0;
+    z-index: 7;
     margin-left: 42%;
     padding: 0;
     list-style: none;
