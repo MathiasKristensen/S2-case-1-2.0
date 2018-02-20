@@ -62,7 +62,8 @@ html {
     z-index: 1;
 }
 #dvideo {
-    width: 100%;
+    margin-left: -1%;
+    width: 101%;
     border: none;
     position:static;
     filter: blur(6px);
@@ -281,9 +282,61 @@ box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
 
 #c7 {
     width: 1550px;
-    background-color: deeppink;
     height: 775px;
 }
+
+.billedkasse6 {
+    position: relative;
+    z-index: -1;
+    margin-top: 3%;
+    left: 10%;
+    width: 25%;
+    height: 30%;
+    overflow: hidden;
+}
+
+.c7billed1 {
+    width: 100%;
+}
+
+.billedkasse7 {
+    position: relative;
+    z-index: -1;
+    margin-top: -3%;
+    left: 25%;
+    width: 25%;
+    height: 30%;
+    overflow: hidden;
+}
+
+.c7billed2 {
+    width: 100%;
+}
+.tekstkasse1 {
+    width: 40%;
+    height: 30%;
+    margin-top: -25%;
+    margin-left: 55%;
+}
+
+.billedtekst1 {
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.tekstkasse3 {
+    width: 80%;
+    height: 30%;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.billedtekst3 {
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size: 42px;
+}
+
 #yarn {
     bottom: 0;
     width: 100px;
@@ -296,7 +349,6 @@ box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
     z-index: -9;
     bottom: 0;
     left: 0;
-    width: 100%;
 }
 
 /** DANSEVIDEO PÅ FORSIDEN_________________________________________ **/
@@ -307,8 +359,8 @@ box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.50);
 .dotstyle ul {
     position: fixed;
     display: inline-block;
-    bottom: 0;
     z-index: 7;
+    margin-top: 46%;
     margin-left: 42%;
     padding: 0;
     list-style: none;

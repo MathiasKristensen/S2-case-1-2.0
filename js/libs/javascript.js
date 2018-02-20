@@ -74,6 +74,11 @@ function scrollToElement6()
     console.log("Scroller til c6");
     window.scrollTo(0,2200); 
 }
+function scrollToElement7()
+{
+    console.log("Scroller til c7");
+    window.scrollTo(0,2640); 
+}
 
 
 // -------------JAVASCRIPT TIL DOTS --------------- // 
